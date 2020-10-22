@@ -14,11 +14,8 @@ import tn.esprit.spring.repository.DepartementRepository;
 public class DepartementServiceImpl implements IDepartementService {
 	private static final Logger l = Logger.getLogger(AffichageLog.class);
 
-
-
 	@Autowired
 	DepartementRepository deptRepoistory;
-
 
 	public List<Departement> getAllDepartements() {
 		l.info("On Va afficher la liste des departements  ");
